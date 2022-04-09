@@ -31,16 +31,16 @@ export default microHandlers({
 
 ## API
 
-microHandlers(handlers)
+### microHandlers(handlers)
 
-### handlers
+#### handlers
 
 Type: `Record<Method, Handler>`
 
-#### Method
+##### Method
 
 Type: `GET | POST | PUT | PATCH | DELETE`
 
-#### Handler
+##### Handler
 
 Type: `Function`
