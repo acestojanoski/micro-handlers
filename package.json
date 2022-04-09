@@ -1,7 +1,7 @@
 {
 	"name": "micro-handlers",
 	"description": "Different handlers based on HTTP method for Micro",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"main": "index.js",
 	"files": [
 		"index.js",
