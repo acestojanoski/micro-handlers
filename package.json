@@ -1,0 +1,39 @@
+{
+	"name": "micro-handlers",
+	"description": "Different handlers based on HTTP method for Micro",
+	"version": "0.0.0",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"homepage": "https://github.com/acestojanoski/micro-handlers#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/acestojanoski/micro-handlers.git"
+	},
+	"bugs": {
+		"url": "https://github.com/acestojanoski/micro-handlers/issues"
+	},
+	"author": "Aleksandar Stojanoski",
+	"license": "MIT",
+	"keywords": [
+		"micro",
+		"micro-handlers",
+		"http",
+		"methods",
+		"allow",
+		"allowed-methods",
+		"405",
+		"Method Not Allowed"
+	],
+	"scripts": {
+		"test": "ava",
+		"prepublishOnly": "yarn test"
+	},
+	"devDependencies": {
+		"ava": "^4.1.0",
+		"node-fetch": "^3.2.3",
+		"test-listen": "^1.1.0"
+	}
+}
