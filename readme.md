@@ -2,6 +2,10 @@
 
 > Different handlers based on HTTP method for Micro
 
+![CI](https://github.com/acestojanoski/micro-handlers/actions/workflows/main.yml/badge.svg?branch=develop)
+[![Downloads](https://img.shields.io/npm/dm/micro-handlers.svg)](https://npmjs.com/micro-handlers)
+[![Install size](https://packagephobia.com/badge?p=micro-handlers)](https://packagephobia.com/result?p=micro-handlers)
+
 ## Install
 
 ```sh
@@ -17,9 +21,9 @@ yarn add micro-handlers
 ## Usage
 
 ```js
-import microHandlers from 'micro-handlers'
+const microHandlers = require('micro-handlers')
 
-export default microHandlers({
+module.exports = microHandlers({
 	GET: (req, res) => {
 		res.end('Hello from GET')
 	},
@@ -44,3 +48,11 @@ Type: `GET | POST | PUT | PATCH | DELETE`
 ##### Handler
 
 Type: `Function`
+
+## License
+
+[MIT](./license)
+
+## Related
+
+- [`allowed-methods`](https://github.com/acestojanoski/allowed-methods)
